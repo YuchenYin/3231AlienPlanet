@@ -1,0 +1,9 @@
+Skybox: https://assetstore.unity.com/packages/p/aerosol-244488
+Cone Mesh: https://assetstore.unity.com/packages/tools/utilities/cone-mesh-229842
+Dream Forest Trees: https://assetstore.unity.com/packages/3d/vegetation/trees/dream-forest-tree-105297
+Space War Ship: https://assetstore.unity.com/packages/3d/vehicles/space/federation-corvette-f3-79860
+Lava material and texture: https://assetstore.unity.com/packages/2d/textures-materials/stylized-lava-materials-180943
+Water texture: https://assetstore.unity.com/packages/2d/textures-materials/water/stylize-water-texture-153577
+Texture sync tool: https://assetstore.unity.com/packages/tools/utilities/texturesync-texture-channel-packer-247650
+Water simulation: https://github.com/leonjovanovic/water-shader-unity
+Some Texture: https://www.textures.com/free
