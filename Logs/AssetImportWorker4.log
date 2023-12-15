@@ -1,0 +1,550 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.3f1 (1cedbfe38737) revision 1895871'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit ProfessionalWorkstation' Language: 'zh' Physical Memory: 32696 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\programming\Unity\2022.1.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/programming/Unity/UnityProgram/3231AlienPlanet
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+3337
+Successfully changed project path to: D:/programming/Unity/UnityProgram/3231AlienPlanet
+D:/programming/Unity/UnityProgram/3231AlienPlanet
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 62.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.3f1 (1cedbfe38737)
+[Subsystems] Discovering subsystems at path D:/programming/Unity/2022.1.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/programming/Unity/UnityProgram/3231AlienPlanet/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'D:/programming/Unity/2022.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/programming/Unity/2022.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/programming/Unity/2022.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/programming/Unity/2022.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002290 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 81.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.588 seconds
+Domain Reload Profiling:
+	ReloadAssembly (588ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (441ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (102ms)
+				TypeCache.Initialize (101ms)
+					TypeCache.ScanAssembly (99ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001921 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\programming\Unity\UnityProgram\3231AlienPlanet\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\programming\Unity\UnityProgram\3231AlienPlanet\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 71.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Domain Reload Profiling:
+	ReloadAssembly (906ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (722ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+				TypeCache.Initialize (212ms)
+					TypeCache.ScanAssembly (208ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (3.0 MB). Loaded Objects now: 3600.
+Memory consumption went from 0.59 GB to 0.59 GB.
+Total: 3.152400 ms (FindLiveObjects: 0.204400 ms CreateObjectMapping: 0.131500 ms MarkObjects: 2.173700 ms  DeleteObjects: 0.641900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 564319.562947 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Editor/Attributes/PostProcessingModelEditorAttribute.cs
+  artifactKey: Guid(c21938aa988055347a2271f03a3e731e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Editor/Attributes/PostProcessingModelEditorAttribute.cs using Guid(c21938aa988055347a2271f03a3e731e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b83638bcd0a6e93f157502d00159d8e0') in 0.108591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/TreesModels/bush 1_Textures/normal_specular.png
+  artifactKey: Guid(c7a8a1a5c6b940444901716129dc4e1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/TreesModels/bush 1_Textures/normal_specular.png using Guid(c7a8a1a5c6b940444901716129dc4e1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20b7745cc3d6e55e220e1e4e1db64261') in 0.034600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ReferencePackages/KevinCastejon/ConeMesh/Core/ConeNamespaceExporter.cs
+  artifactKey: Guid(58ef1c47bd3a93a408c2cd65952a30fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/KevinCastejon/ConeMesh/Core/ConeNamespaceExporter.cs using Guid(58ef1c47bd3a93a408c2cd65952a30fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e178f9a478207ad4f380143391a5afb') in 0.007681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '558bca6018f640a58849048a39d2292a') in 0.007484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Shaders/Sun.shader
+  artifactKey: Guid(8d3021716c3244c44928472099f2f790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/Sun.shader using Guid(8d3021716c3244c44928472099f2f790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7ede31129fa3f3dcb157cc7fffec248') in 0.012104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4908a5513032fd2dd2c1b6a3e1d9334') in 0.010839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs
+  artifactKey: Guid(d862c8701bf34c342b95cf9058d0b70c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs using Guid(d862c8701bf34c342b95cf9058d0b70c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7980ab57fbb67effde9932551032ffd0') in 0.007055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Resources/Shaders/EyeHistogram.compute
+  artifactKey: Guid(e213272ad8ff213409a6e13b5c26b4e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Resources/Shaders/EyeHistogram.compute using Guid(e213272ad8ff213409a6e13b5c26b4e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02370f3d5d5021ffb4ebe585713d101a') in 0.008454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Models/DitheringModel.cs
+  artifactKey: Guid(41209882cdbcf31429d2a457a2164801) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Models/DitheringModel.cs using Guid(41209882cdbcf31429d2a457a2164801) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '743afa20a843e7b316de6d1f04a6fad6') in 0.008182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Utils/MaterialFactory.cs
+  artifactKey: Guid(594fad000c373f746864717c588e1815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Utils/MaterialFactory.cs using Guid(594fad000c373f746864717c588e1815) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0ac2dd64db7eba4fa9491db5cde9527') in 0.007323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tools/OccaSoftware/TextureChannelPacker/AssetResources/Editor/TextureChannelPackerWindow.cs
+  artifactKey: Guid(8c6eb3e4f10448a47b2c506abb70cad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tools/OccaSoftware/TextureChannelPacker/AssetResources/Editor/TextureChannelPackerWindow.cs using Guid(8c6eb3e4f10448a47b2c506abb70cad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67a2afe050e9b55db8eb023847c602d5') in 0.009891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs
+  artifactKey: Guid(c227d71a4040d304c943c26e0914bdeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs using Guid(c227d71a4040d304c943c26e0914bdeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c0eb9eb0e35c0e7f23360f495164c49') in 0.007583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Resources/Shaders/MotionBlur.shader
+  artifactKey: Guid(6ab8493603d8f8e408750b81666a95f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Resources/Shaders/MotionBlur.shader using Guid(6ab8493603d8f8e408750b81666a95f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12496175fd8e10c12a4342f4c26c763e') in 0.012389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Resources/Shaders/DiskKernels.cginc
+  artifactKey: Guid(faeb738b5a2c3ff43bd104dd5b1a275c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Resources/Shaders/DiskKernels.cginc using Guid(faeb738b5a2c3ff43bd104dd5b1a275c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e937ec7a4b587ad25c30ef6077d2fc27') in 0.005641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Attributes/MinAttribute.cs
+  artifactKey: Guid(9af2f505033843c46a362e251937acb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Attributes/MinAttribute.cs using Guid(9af2f505033843c46a362e251937acb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e37a2a9de18c1ae69413be2b8ce8e69f') in 0.006437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Models/ColorGradingModel.cs
+  artifactKey: Guid(fe146bcdc1fb8ae4ab7dd803982d3489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Models/ColorGradingModel.cs using Guid(fe146bcdc1fb8ae4ab7dd803982d3489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a55924b592548d270d9ea003d49c0e24') in 0.007092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Utils/ColorGradingCurve.cs
+  artifactKey: Guid(1bb6f2275f7eff940b6f0d72681e7877) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Utils/ColorGradingCurve.cs using Guid(1bb6f2275f7eff940b6f0d72681e7877) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc4171649bda08ec8bd46b45ce38e16d') in 0.007165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Models/EyeAdaptationModel.cs
+  artifactKey: Guid(edf6d216ca4b60942a0c533c14f26d53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Models/EyeAdaptationModel.cs using Guid(edf6d216ca4b60942a0c533c14f26d53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01f4ae053ec1100839309a39396ae941') in 0.006558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Models/BloomModel.cs
+  artifactKey: Guid(e215a6ec29d100f489c186f289526f06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Models/BloomModel.cs using Guid(e215a6ec29d100f489c186f289526f06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0cbec4a7a1092f4eec7f2020b4dae56f') in 0.006138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Components/TaaComponent.cs
+  artifactKey: Guid(f28703283e17be54180fd04a7c70e1d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Components/TaaComponent.cs using Guid(f28703283e17be54180fd04a7c70e1d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25ec446a4963677798624880f91e6fc9') in 0.006754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ReferencePackages/KevinCastejon/ConeMesh/Core/Editor/ConeMeshEditorAssembly.asmdef
+  artifactKey: Guid(95ce7587b9336c447a75a7349dd347eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/KevinCastejon/ConeMesh/Core/Editor/ConeMeshEditorAssembly.asmdef using Guid(95ce7587b9336c447a75a7349dd347eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a900058055326995f465d9cf7ba2627e') in 0.011080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Resources/Shaders/TAA.cginc
+  artifactKey: Guid(241b7a6a033e9dc4da9d2595cef7f477) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Resources/Shaders/TAA.cginc using Guid(241b7a6a033e9dc4da9d2595cef7f477) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9797692ecf29b048f8856a8abc45e9ca') in 0.007161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Attributes/GetSetAttribute.cs
+  artifactKey: Guid(f17e8602928ea02419dae051ec79c5a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Attributes/GetSetAttribute.cs using Guid(f17e8602928ea02419dae051ec79c5a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '978d91bf8d9deb182a376c25158c9b42') in 0.006608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Components/ColorGradingComponent.cs
+  artifactKey: Guid(9baf73db7c9fc1b478f4a0a1000c86f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Components/ColorGradingComponent.cs using Guid(9baf73db7c9fc1b478f4a0a1000c86f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '583074edda52ae7ec95f257b49897581') in 0.006972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Resources/Shaders/TAA.shader
+  artifactKey: Guid(ec6c5af987867f54aa08fba81ee279bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Resources/Shaders/TAA.shader using Guid(ec6c5af987867f54aa08fba81ee279bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c96b65cd293f5790ae8f8dcca728d27') in 0.010241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Resources/Shaders/Tonemapping.cginc
+  artifactKey: Guid(0a999e641c982a14d9c68dfd53a98afc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Resources/Shaders/Tonemapping.cginc using Guid(0a999e641c982a14d9c68dfd53a98afc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ebe3b530c990f4683b759f4c59674ae') in 0.005664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Resources/Shaders/MotionBlur.cginc
+  artifactKey: Guid(c83956915580e42489479d2a109470ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Resources/Shaders/MotionBlur.cginc using Guid(c83956915580e42489479d2a109470ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16f1acfca08ec9c73f8311605f4faf8a') in 0.007535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Components/BloomComponent.cs
+  artifactKey: Guid(acd4204a794b09048b928b1e987500c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/PostProcessing/Runtime/Components/BloomComponent.cs using Guid(acd4204a794b09048b928b1e987500c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e87dd101125ac4f2877c2ab0462ed560') in 0.007488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ReferencePackages/F3_Corvette/Textures/F3_AO.tif
+  artifactKey: Guid(1c2d94856a0846d46810faf0c4b38c22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/F3_Corvette/Textures/F3_AO.tif using Guid(1c2d94856a0846d46810faf0c4b38c22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abfc4a2931eb0474691fdd657ed6a86a') in 0.018624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ReferencePackages/Grass And Flowers Pack 1/Grass/Grass 4.png
+  artifactKey: Guid(e79a83ecca9d8d8498cd8a9fbea1638d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/Grass And Flowers Pack 1/Grass/Grass 4.png using Guid(e79a83ecca9d8d8498cd8a9fbea1638d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46519085fbba073ea0ef8b83e28588ce') in 0.015860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/Stylized Lava Materials/Lava04/T_Lava04_normal.png
+  artifactKey: Guid(4b17f1284a150504d9421155d6de7e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Stylized Lava Materials/Lava04/T_Lava04_normal.png using Guid(4b17f1284a150504d9421155d6de7e7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fc8b53cbba769894b9c85b3f1fa74a1') in 0.020774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '294ee3482d294a6cf9d55373484c16a0') in 0.012500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tools/TerrainTools/BrushTextures/volcano01.tif
+  artifactKey: Guid(bd916b355f53ab144901eeb862a0be0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tools/TerrainTools/BrushTextures/volcano01.tif using Guid(bd916b355f53ab144901eeb862a0be0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74e7571b8eebbe61422d75778e350448') in 0.019579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ReferencePackages/F3_Corvette/Textures/F3_Green.tif
+  artifactKey: Guid(b3b46c34242010445b60790dee02de1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/F3_Corvette/Textures/F3_Green.tif using Guid(b3b46c34242010445b60790dee02de1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e6ef692e98823b1ca84845669793bfa') in 0.013652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ReferencePackages/DreamForestTree/TreesModels/RedWood 2.prefab
+  artifactKey: Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferencePackages/DreamForestTree/TreesModels/RedWood 2.prefab using Guid(6c9e41e24d2bc6b488c927f43944457b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41b9a02e15053c0f6fec6c4be73f908d') in 0.038120 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (3.0 MB). Loaded Objects now: 3602.
+Memory consumption went from 180.0 MB to 177.1 MB.
+Total: 3.502900 ms (FindLiveObjects: 0.291600 ms CreateObjectMapping: 0.098200 ms MarkObjects: 2.498700 ms  DeleteObjects: 0.613700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001614 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\programming\Unity\UnityProgram\3231AlienPlanet\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\programming\Unity\UnityProgram\3231AlienPlanet\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.647 seconds
+Domain Reload Profiling:
+	ReloadAssembly (647ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (484ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (157ms)
+				TypeCache.Initialize (154ms)
+					TypeCache.ScanAssembly (150ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3128 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (3.2 MB). Loaded Objects now: 3736.
+Memory consumption went from 0.58 GB to 0.58 GB.
+Total: 2.404100 ms (FindLiveObjects: 0.157200 ms CreateObjectMapping: 0.065100 ms MarkObjects: 1.666400 ms  DeleteObjects: 0.514800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001499 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\programming\Unity\UnityProgram\3231AlienPlanet\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\programming\Unity\UnityProgram\3231AlienPlanet\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.746 seconds
+Domain Reload Profiling:
+	ReloadAssembly (747ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+				TypeCache.Initialize (159ms)
+					TypeCache.ScanAssembly (156ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3128 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (3.2 MB). Loaded Objects now: 3739.
+Memory consumption went from 0.58 GB to 0.58 GB.
+Total: 2.977800 ms (FindLiveObjects: 0.234400 ms CreateObjectMapping: 0.077600 ms MarkObjects: 2.007900 ms  DeleteObjects: 0.657300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
