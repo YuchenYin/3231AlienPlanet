@@ -762,6 +762,10 @@
       <Project>{8BE5035C-1E8E-50B9-7930-A679C8E642E2}</Project>
       <Name>Unity.TerrainTools</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Editor.csproj">
+      <Project>{F206221E-779A-BE08-07D7-400A6196408C}</Project>
+      <Name>Unity.Recorder.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{EA00CDBB-A9C6-3565-858D-D4183CB31A31}</Project>
       <Name>Unity.VSCode.Editor</Name>
@@ -769,6 +773,10 @@
     <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
       <Project>{08F58C94-188F-82E1-5675-01941A4648F0}</Project>
       <Name>Unity.Postprocessing.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Base.csproj">
+      <Project>{024B4C5A-8600-4C71-8CB0-D790ABFE014B}</Project>
+      <Name>Unity.Recorder.Base</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
       <Project>{0DF04BDA-28AA-EDF0-73FF-7701AAD7EDC9}</Project>
@@ -857,6 +865,10 @@
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
       <Project>{FA1A3BD7-55F9-5129-10B3-0A6DDE9FCA12}</Project>
       <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.csproj">
+      <Project>{1774B7C7-AA64-917E-95CF-077EB32825F2}</Project>
+      <Name>Unity.Recorder</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
       <Project>{F7662450-F573-E9C5-83D4-207354B56BBE}</Project>
